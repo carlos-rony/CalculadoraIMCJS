@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 20px;
+}
+
+form >  input {
+    margin: 12px 0px;
+    height: 30px;
+    width: 300px;
+}
+
+.message{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(245, 141, 141);
+    width: 300px;
+    height: 45px;
+    color: azure;
+    border: 2px solid  rgb(105, 236, 138);
+}
+
+.caixa{
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: blue;
+    background: rgb(162,162,162);
+background: linear-gradient(90deg, rgba(162,162,162,1) 0%, rgba(148,148,168,0.7455357142857143) 35%, rgba(25,25,25,1) 100%);
+text-align: center;
+}
+
+.off{
+    display: none;
+}
